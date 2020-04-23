@@ -8,4 +8,5 @@ html , body {margin:0px; padding: 0px;}
 .nav-wrap > div {float: left; padding:14px 18px;}
 .nav-wrap > div:hover {background-color:#ccc; cursor: pointer; color: #111;}
 
-.sch-wrap{background-color: orange; float:right;}
+.sch-wrap{float:right;}
+.sch-wrap > span {padding: 14px 18px; color:white}
