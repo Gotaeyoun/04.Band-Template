@@ -1,5 +1,7 @@
 /* 공통 */
 html , body {margin:0px; padding: 0px;}
+h1,h2,h3,h4,h5,h6,div,p {box-sizing: border-box;}
+body {height:10000px;}
 .clearfix{clear:both;}
 
 /* header */
@@ -19,5 +21,8 @@ html , body {margin:0px; padding: 0px;}
 /* main */
 .main-wrap{text-align: center;}
 /* .main-img{width:1200px;}  */
-/* .main-img{width:100%;} */
-.main-img{max-width:1200px; width:100%;}
+.main-img{width:100%;}
+/* .main-img{max-width:1200px; width:100%;} */
+
+/* bandwrap */
+.band-wrap{border:10px solid red; max-width:790px; width:100%; margin: 0 auto; padding: 100px 12px;}
