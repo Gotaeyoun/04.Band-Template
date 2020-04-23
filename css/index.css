@@ -1,28 +1,87 @@
 /* 공통 */
-html , body {margin:0px; padding: 0px;}
-h1,h2,h3,h4,h5,h6,div,p {box-sizing: border-box;}
-body {height:10000px;}
-.clearfix{clear:both;}
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p {
+	box-sizing: border-box;
+}
+
+body {
+	height: 10000px;
+}
+
+.clearfix {
+	clear: both;
+}
 
 /* header */
-.header{background-color: #000000} 
+.header {
+	background-color: #000000
+}
 
-.nav-wrap{float:left; color:white;}
+.nav-wrap {
+	float: left;
+	color: white;
+}
 
-.nav-wrap > div {float: left; padding:14px 18px;}
-.nav-wrap > div:hover {background-color:#ccc; cursor: pointer; color: #111;}
+.nav-wrap>div {
+	float: left;
+	padding: 14px 18px;
+}
 
-.sch-wrap{float:right;}
-.sch-wrap > span {padding: 14px 18px; color:white}
-.sch-wrap :hover {background-color: #f20; cursor: pointer;}
-.sch-wrap > span {padding: 16px 18px;}
+.nav-wrap>div:hover {
+	background-color: #ccc;
+	cursor: pointer;
+	color: #111;
+}
+
+.sch-wrap {
+	float: right;
+}
+
+.sch-wrap>span {
+	padding: 14px 18px;
+	color: white
+}
+
+.sch-wrap :hover {
+	background-color: #f20;
+	cursor: pointer;
+}
+
+.sch-wrap>span {
+	padding: 16px 18px;
+}
 
 
 /* main */
-.main-wrap{text-align: center;}
+.main-wrap {
+	text-align: center;
+}
+
 /* .main-img{width:1200px;}  */
-.main-img{width:100%;}
+.main-img {
+	width: 100%;
+}
+
 /* .main-img{max-width:1200px; width:100%;} */
 
 /* bandwrap */
-.band-wrap{border:10px solid red; max-width:790px; width:100%; margin: 0 auto; padding: 100px 12px;}
+.band-wrap {
+	border: 10px solid red;
+	max-width: 790px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 100px 12px;
+}
+
