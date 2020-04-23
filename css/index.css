@@ -1,6 +1,8 @@
+/* 공통 */
 html , body {margin:0px; padding: 0px;}
 .clearfix{clear:both;}
 
+/* header */
 .header{background-color: #000000} 
 
 .nav-wrap{float:left; color:white;}
@@ -12,3 +14,10 @@ html , body {margin:0px; padding: 0px;}
 .sch-wrap > span {padding: 14px 18px; color:white}
 .sch-wrap :hover {background-color: #f20; cursor: pointer;}
 .sch-wrap > span {padding: 16px 18px;}
+
+
+/* main */
+.main-wrap{text-align: center;}
+/* .main-img{width:1200px;}  */
+/* .main-img{width:100%;} */
+.main-img{max-width:1200px; width:100%;}

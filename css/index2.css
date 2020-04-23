@@ -1,6 +1,8 @@
+/* 공통 */
 .html , body {margin: 0; padding: 0;}
 .clearfix{clear:both}
 
+/* header */
 .header {background-color: black;}
 
 
@@ -11,3 +13,6 @@
 .sch-wrap{color:white; float: right;}
 .sch-wrap > span{padding: 16px 20px; font-size:22px;}
 .sch-wrap > span:hover{background-color: #f00;}
+
+/* main */
+.main-wrap{text-align: center;}
