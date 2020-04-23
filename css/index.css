@@ -10,3 +10,5 @@ html , body {margin:0px; padding: 0px;}
 
 .sch-wrap{float:right;}
 .sch-wrap > span {padding: 14px 18px; color:white}
+.sch-wrap :hover {background-color: #f20; cursor: pointer;}
+.sch-wrap > span {padding: 16px 18px;}

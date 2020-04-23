@@ -1,0 +1,13 @@
+.html , body {margin: 0; padding: 0;}
+.clearfix{clear:both}
+
+.header {background-color: black;}
+
+
+.cont-wrap{color:white;  float: left;}
+.cont-wrap > div {float:left; padding: 16px 20px;}
+.cont-wrap > div:hover{background-color:#555; color:#111; cursor: pointer;}
+
+.sch-wrap{color:white; float: right;}
+.sch-wrap > span{padding: 16px 20px; font-size:22px;}
+.sch-wrap > span:hover{background-color: #f00;}
