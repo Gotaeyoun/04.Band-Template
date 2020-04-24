@@ -1,8 +1,8 @@
-/*글꼴불러오기*/
+/************글꼴불러오기************/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap');
 
 
-/* Normalize */
+/************ Normalize ************/
 html,
 body {
 	margin: 0px;
@@ -24,7 +24,7 @@ body {
 	height: 10000px;
 }
 
-/* 공통사항 */
+/************공통사항 ************/
 .clearfix {
 	clear: both;
 }
@@ -52,9 +52,17 @@ body {
 	width: 100%;
 }
 
-/* header */
+.wrapper {
+	max-width: 790px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 100px 12px;
+}
+
+/************ header ************/
 .header {
-	background-color: #000000
+	background-color: #000000;
+	
 }
 
 .nav-wrap {
@@ -92,7 +100,7 @@ body {
 }
 
 
-/* main */
+/************ main-wrap ************/
 .main-wrap {
 	text-align: center;
 }
@@ -104,16 +112,7 @@ body {
 
 /* .main-img{max-width:1200px; width:100%;} */
 
-/* bandwrap */
-.band-wrap {
-	max-width: 790px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 100px 12px;
-}
-
-.members {}
-
+/************ band-wrap ************/
 .member {
 	width: 33.3333%;
 	float: left;
@@ -131,3 +130,12 @@ body {
 .member img {
 	border-radius: 6px;
 }
+
+/************ tour-wrap ************/
+.tour-wrap{
+	background-color: #000;
+}
+.tour-wrap > .wrapper{
+	color:white;
+}
+
