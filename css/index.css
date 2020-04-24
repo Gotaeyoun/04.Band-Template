@@ -75,7 +75,7 @@ body {
 
 .nav-wrap>div {
 	float: left;
-	padding: 14px 18px;
+	padding: 16px 20px;
 }
 
 .nav-wrap>div:hover {
@@ -88,9 +88,11 @@ body {
 	float: right;
 }
 
-.sch-wrap>span {
-	padding: 14px 18px;
-	color: white
+.sch-wrap > span {
+	padding: 16px 20px;
+	color: white;
+	font-size: 22px;
+	
 }
 
 .sch-wrap :hover {
