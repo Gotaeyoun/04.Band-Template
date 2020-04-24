@@ -1,3 +1,6 @@
+# CLI - Command Line Interface
+# GUI - Graphic User Interface 
+
 # git 을 배워보자
 ## git 설치 
 ### 1. [git-scm.com](https://git-scm.com) 우측 중앙의 다운로드 버튼을 클릭하고 설치한다.(기본값으로 설치)
