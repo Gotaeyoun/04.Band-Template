@@ -1,42 +1,3 @@
-/*********Nomallize **********/
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-div {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	height: 10000px;
-}
-
-img {
-	vertical-align: bottom;
-}
-
-/* 공통사항 */
-.clear::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.img {
-	width: 100%;
-}
-
-
-.pointer {
-	cursor: pointer;
-}
 
 .page-title {
 	text-align: center;
@@ -201,7 +162,7 @@ img {
 }
 
 .city-photo:hover>img {
-	transform: scale(1.1);
+	transform: scale(1.2);
 	opacity: 1;
 
 }
