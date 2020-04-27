@@ -31,6 +31,12 @@ body {
 	clear: both;
 }
 
+.clear::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .title {
 	text-align: center;
 	font-family: 'Nunito', sans-serif;
@@ -88,11 +94,11 @@ body {
 	float: right;
 }
 
-.sch-wrap > span {
+.sch-wrap>span {
 	padding: 16px 20px;
 	color: white;
 	font-size: 22px;
-	
+
 }
 
 .sch-wrap :hover {
@@ -227,8 +233,8 @@ body {
 	margin-top: 12px;
 }
 
-.city>.conts>.bt-buy:hover{
+.city>.conts>.bt-buy:hover {
 	background-color: #ccc;
-	color:#111;
+	color: #111;
 	cursor: pointer;
 }

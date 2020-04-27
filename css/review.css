@@ -1,0 +1,50 @@
+/*********Nomallize **********/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* 공통사항 */
+.clear::after{content:""; display:block; clear:both;}
+.img {width:100%}
+
+/*********header**********/
+.header {
+	background-color: #000;
+	color: #fff
+
+}
+
+.navi-wrap{
+	float:left;
+}
+.search-wrap{
+	float:right
+}
+
+.navi{
+	float:left;
+	padding:16px;
+}
+
+.search-wrap{
+	float:right;
+}
+
+.search-wrap > span{
+	padding:18px;
+}
+/*********main-wrap **********/
+.main-wrap{
+	text-align: center;
+}
+
