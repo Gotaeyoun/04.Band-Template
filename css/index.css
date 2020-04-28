@@ -1,39 +1,12 @@
 /************글꼴불러오기************/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap');
 
-
-/************ Normalize ************/
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-p {
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-}
-
-img {
-	vertical-align: bottom;
-}
-
 body {
 	height: 10000px;
 }
 
 /************공통사항 ************/
 .clearfix {
-	clear: both;
-}
-
-.clear::after {
-	content: "";
-	display: block;
 	clear: both;
 }
 
@@ -116,10 +89,6 @@ body {
 	text-align: center;
 }
 
-/* .main-img{width:1200px;}  */
-.main-img {
-	width: 100%;
-}
 
 /* .main-img{max-width:1200px; width:100%;} */
 
@@ -237,4 +206,68 @@ body {
 	background-color: #ccc;
 	color: #111;
 	cursor: pointer;
+}
+
+/******** Contact *********/
+.infos {
+	width: 50%;
+	float: left;
+}
+
+.forms {
+	width: 50%;
+	float: right;
+}
+
+.infos>.info {
+	padding: 6px 0;
+	font-size: 18px;
+}
+
+.infos>.info>span {
+	margin-right: 20px;
+}
+
+
+
+.forms input {
+	padding: 10px;
+	margin-bottom: 4px;
+	width: 100%;
+}
+
+.forms>div:nth-child(1)>input {
+	width: 49%;
+
+}
+
+
+.forms>div:nth-child(1)>input:first-child {
+	float: left;
+}
+
+.forms>div:nth-child(1)>input:last-child {
+	float: right;
+}
+/* 
+.forms>div:nth-child(2)>input{
+	width: 100%;
+} */
+
+.forms>div:nth-child(3){
+	text-align: right;
+}
+
+.forms button{
+	background-color: #000;
+	color:white;
+	padding: 8px 16px;
+	border:none;
+	margin: 12px 0;
+}
+
+.forms button:hover{
+	background-color: #ddd;
+	color:#000;
+	
 }
