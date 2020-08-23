@@ -1,6 +1,11 @@
 /************글꼴불러오기************/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+/* font-family: 'Poiret One', cursive; */
+/* font-family: 'Karla', sans-serif*/
+/* font-family: 'Noto Sans KR', sans-serif; */
 
 /************공통사항 ************/
 .clearfix {
@@ -12,6 +17,7 @@
 	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	letter-spacing: 8px;
+	
 }
 
 .slogan {
@@ -29,6 +35,7 @@
 
 .img {
 	width: 100%;
+	
 }
 
 .wrapper {
@@ -40,25 +47,26 @@
 
 /************ header ************/
 .header {
-	background-color: #000000;
+	background-color: #fffcf7;
 	width: 100%;
 	position: fixed;
 	z-index: 9999;
+	font-family: 'Karla', sans-serif;
 
 }
 
 .nav-wrap {
 	float: left;
-	color: white;
+	color: #aa1b31;
 }
 
 .nav-wrap>div {
 	float: left;
-	padding: 16px 20px;
+	padding: 18px 20px;
 }
 
 .nav-wrap>div:hover {
-	background-color: #ccc;
+	background-color: #ffffff;
 	cursor: pointer;
 	color: #111;
 }
@@ -75,13 +83,13 @@
 
 .sch-wrap>span {
 	padding: 16px 20px;
-	color: white;
+	color: #aa1b31;
 	font-size: 22px;
 
 }
 
 .sch-wrap :hover {
-	background-color: #f20;
+	background-color: #ffffff;
 	cursor: pointer;
 }
 
@@ -98,16 +106,16 @@
 
 .main-slogan {
 	position: absolute;
+	font-family: 'Poiret One', cursive;
 	width: 100%;
 	color: #fff;
 	bottom: 40px;
 
 }
 
-.main-slogan>h2 {
-	font-size: 32px;
-	font-weight: normal;
-	padding: 16px;
+.main-slogan>h2 > img {
+	width: 30%;
+	height: 30%;
 }
 
 .main-slogan>h3 {
@@ -119,6 +127,7 @@
 
 /************ band-wrap ************/
 .member {
+	font-family: 'Noto Sans KR', sans-serif;
 	width: 33.3333%;
 	float: left;
 	padding: 40px;
@@ -138,11 +147,13 @@
 
 /************ tour-wrap ************/
 .tour-wrap {
-	background-color: #000;
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: #ff84c3;
 }
 
 .tour-wrap .title {
-	color: white;
+	font-family: 'Karla', sans-serif;
+	color: #fff;
 }
 
 .tour-wrap .lists {
@@ -169,7 +180,7 @@
 }
 
 .badge-soldout {
-	background-color: #f20;
+	background-color: #8d1629;
 	color: #fff;
 	padding: 2px 8px;
 	font-size: 14px;
@@ -178,7 +189,7 @@
 
 .badge-counter {
 	float: right;
-	background-color: #111;
+	background-color: #8f1629;
 	color: #fff;
 	padding: 2px 8px;
 	border-radius: 50%;
@@ -221,16 +232,17 @@
 
 .city>.conts>.bt-buy {
 	padding: 12px;
-	background-color: #111;
+	background-color: #8f1629;
 	color: #fff;
 	display: inline-block;
 	margin-top: 12px;
+	
 }
 
 .city>.conts>.bt-buy:hover {
-	background-color: #ccc;
-	color: #111;
+	color: #fff;
 	cursor: pointer;
+	background-color:#e9cc99
 }
 
 /******** Contact *********/
@@ -285,19 +297,20 @@
 }
 
 .forms button {
-	background-color: #000;
-	color: white;
+	background-color: #8f1629;
+	color: #fff;
 	padding: 8px 16px;
 	border: none;
 	margin: 12px 0;
 }
 
 .forms button:hover {
-	background-color: #ddd;
-	color: #000;
+	background-color:#e9cc99;
+	color: #fff;
 }
 
 .footer {
+	background-color:#fffcf7;
 	text-align: center;
 	padding: 80px 0;
 	color: #999;
